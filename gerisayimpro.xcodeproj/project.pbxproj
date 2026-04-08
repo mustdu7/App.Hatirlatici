@@ -6,19 +6,97 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		45372C8F2F865D560079A6CB /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45372C032F8657C40079A6CB /* WidgetKit.framework */; };
+		45372C902F865D560079A6CB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45372C052F8657C50079A6CB /* SwiftUI.framework */; };
+		45372C9B2F865D560079A6CB /* gerisayimwidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 45372C8E2F865D560079A6CB /* gerisayimwidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45372C992F865D560079A6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4558844A2F85899D0051A5DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45372C8D2F865D560079A6CB;
+			remoteInfo = gerisayimwidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45372C162F8657C60079A6CB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45372C9B2F865D560079A6CB /* gerisayimwidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		45372C032F8657C40079A6CB /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		45372C052F8657C50079A6CB /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		45372C8E2F865D560079A6CB /* gerisayimwidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = gerisayimwidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45372CBD2F865FF60079A6CB /* gerisayimwidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gerisayimwidgetExtension.entitlements; sourceTree = "<group>"; };
 		455884522F85899D0051A5DB /* gerisayimpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gerisayimpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45372CB12F865D740079A6CB /* Exceptions for "gerisayimwidget" folder in "gerisayimwidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CountdownProvider.swift,
+				GeriSayimWidget.swift,
+				MediumWidgetView.swift,
+				SmallWidgetView.swift,
+				WidgetEntry.swift,
+			);
+			target = 45372C8D2F865D560079A6CB /* gerisayimwidgetExtension */;
+		};
+		45372CB82F865DED0079A6CB /* Exceptions for "gerisayimpro" folder in "gerisayimwidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Date+Extensions.swift",
+				Models/Event.swift,
+				Models/EventNotification.swift,
+				Services/RecurringEventService.swift,
+			);
+			target = 45372C8D2F865D560079A6CB /* gerisayimwidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		45372C072F8657C50079A6CB /* gerisayimwidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45372CB12F865D740079A6CB /* Exceptions for "gerisayimwidget" folder in "gerisayimwidgetExtension" target */,
+			);
+			path = gerisayimwidget;
+			sourceTree = "<group>";
+		};
 		455884542F85899D0051A5DB /* gerisayimpro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45372CB82F865DED0079A6CB /* Exceptions for "gerisayimpro" folder in "gerisayimwidgetExtension" target */,
+			);
 			path = gerisayimpro;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		45372C8B2F865D560079A6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45372C902F865D560079A6CB /* SwiftUI.framework in Frameworks */,
+				45372C8F2F865D560079A6CB /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4558844F2F85899D0051A5DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45372C022F8657C40079A6CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45372C032F8657C40079A6CB /* WidgetKit.framework */,
+				45372C052F8657C50079A6CB /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		455884492F85899D0051A5DB = {
 			isa = PBXGroup;
 			children = (
+				45372CBD2F865FF60079A6CB /* gerisayimwidgetExtension.entitlements */,
 				455884542F85899D0051A5DB /* gerisayimpro */,
+				45372C072F8657C50079A6CB /* gerisayimwidget */,
+				45372C022F8657C40079A6CB /* Frameworks */,
 				455884532F85899D0051A5DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				455884522F85899D0051A5DB /* gerisayimpro.app */,
+				45372C8E2F865D560079A6CB /* gerisayimwidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +139,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		45372C8D2F865D560079A6CB /* gerisayimwidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45372C9D2F865D560079A6CB /* Build configuration list for PBXNativeTarget "gerisayimwidgetExtension" */;
+			buildPhases = (
+				45372C8A2F865D560079A6CB /* Sources */,
+				45372C8B2F865D560079A6CB /* Frameworks */,
+				45372C8C2F865D560079A6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gerisayimwidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = gerisayimwidgetExtension;
+			productReference = 45372C8E2F865D560079A6CB /* gerisayimwidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		455884512F85899D0051A5DB /* gerisayimpro */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4558845D2F85899E0051A5DB /* Build configuration list for PBXNativeTarget "gerisayimpro" */;
@@ -55,10 +165,12 @@
 				4558844E2F85899D0051A5DB /* Sources */,
 				4558844F2F85899D0051A5DB /* Frameworks */,
 				455884502F85899D0051A5DB /* Resources */,
+				45372C162F8657C60079A6CB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				45372C9A2F865D560079A6CB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				455884542F85899D0051A5DB /* gerisayimpro */,
@@ -80,6 +192,9 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					45372C8D2F865D560079A6CB = {
+						CreatedOnToolsVersion = 26.3;
+					};
 					455884512F85899D0051A5DB = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -100,11 +215,19 @@
 			projectRoot = "";
 			targets = (
 				455884512F85899D0051A5DB /* gerisayimpro */,
+				45372C8D2F865D560079A6CB /* gerisayimwidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		45372C8C2F865D560079A6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		455884502F85899D0051A5DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +238,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45372C8A2F865D560079A6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4558844E2F85899D0051A5DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +254,77 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		45372C9A2F865D560079A6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45372C8D2F865D560079A6CB /* gerisayimwidgetExtension */;
+			targetProxy = 45372C992F865D560079A6CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		45372C9E2F865D560079A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = gerisayimwidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U29AWFL877;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gerisayimwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = gerisayimwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.must.gerisayimpro.gerisayimwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45372C9F2F865D560079A6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = gerisayimwidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U29AWFL877;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gerisayimwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = gerisayimwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.must.gerisayimpro.gerisayimwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4558845B2F85899E0051A5DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,16 +451,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gerisayimpro/gerisayimpro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U29AWFL877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geri Sayım Pro";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,16 +486,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gerisayimpro/gerisayimpro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U29AWFL877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Geri Sayım Pro";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +519,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		45372C9D2F865D560079A6CB /* Build configuration list for PBXNativeTarget "gerisayimwidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45372C9E2F865D560079A6CB /* Debug */,
+				45372C9F2F865D560079A6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4558844D2F85899D0051A5DB /* Build configuration list for PBXProject "gerisayimpro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
