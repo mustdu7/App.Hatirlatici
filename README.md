@@ -28,7 +28,12 @@ Uygulama App Store'da yayında:
 
 ## Destek
 
-Soru, öneri veya hata bildirimi için [Issues](https://github.com/mustdu7/geri_sayim_pro_app/issues) sayfasını kullanabilirsiniz.
+Soru, öneri veya hata bildirimi için:
+
+- **E-posta:** [mustafadurna@icloud.com](mailto:mustafadurna@icloud.com)
+- **GitHub Issues:** [Issues](https://github.com/mustdu7/geri_sayim_pro_app/issues)
+
+Detaylı destek ve SSS için: [Destek Sayfası](https://mustdu7.github.io/geri_sayim_pro_app/support)
 
 ## Gizlilik Politikası
 

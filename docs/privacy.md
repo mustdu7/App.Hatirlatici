@@ -10,7 +10,7 @@ Oluşturduğunuz etkinlikler ve bildirim tercihleri yalnızca cihazınızda yere
 
 ## Reklamlar
 
-Uygulama, Google AdMob aracılığıyla reklam gösterebilir. AdMob, reklam kişiselleştirme amacıyla cihaz tanımlayıcısı kullanabilir. Daha fazla bilgi için [Google Gizlilik Politikası](https://policies.google.com/privacy) sayfasını inceleyebilirsiniz.
+Uygulama, Google AdMob aracılığıyla reklam gösterebilir. Reklam kişiselleştirmesi için App Tracking Transparency (ATT) izni istenir. Kullanıcı izin vermeden hiçbir reklam verisi toplanmaz. AdMob, izin verilmesi halinde cihaz tanımlayıcısını kullanabilir. Daha fazla bilgi için [Google Gizlilik Politikası](https://policies.google.com/privacy) sayfasını inceleyebilirsiniz.
 
 ## Bildirimler
 
@@ -18,4 +18,4 @@ Bildirim izni yalnızca etkinlik hatırlatmaları göndermek için kullanılır.
 
 ## İletişim
 
-Gizlilikle ilgili sorularınız için: [github.com/mustdu7/geri_sayim_pro_app/issues](https://github.com/mustdu7/geri_sayim_pro_app/issues)
+Gizlilikle ilgili sorularınız için: [mustafadurna@icloud.com](mailto:mustafadurna@icloud.com)
