@@ -6,7 +6,7 @@
 
 Soru, öneri veya sorun bildirmek için:
 
-📧 **E-posta:** [mustafadurna@icloud.com](mailto:mustafadurna@icloud.com)
+📧 **E-posta:** [mustdu7@gmail.com](mailto:mustdu7@gmail.com)
 
 Mesajınıza uygulama sürümünü ve cihaz modelinizi eklemeniz, sorununuzu daha hızlı çözmemize yardımcı olur.
 

@@ -18,4 +18,4 @@ Bildirim izni yalnızca etkinlik hatırlatmaları göndermek için kullanılır.
 
 ## İletişim
 
-Gizlilikle ilgili sorularınız için: [mustafadurna@icloud.com](mailto:mustafadurna@icloud.com)
+Gizlilikle ilgili sorularınız için: [mustdu7@gmail.com](mailto:mustdu7@gmail.com)
