@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek - Pro: Hatirlatici</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+            background: #0A0A0A;
+            color: #F0EDEB;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        .app-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: #141414;
+            border: 1px solid #1F1F1F;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 36px;
+        }
+        .app-header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .app-header p {
+            color: #888;
+            margin-top: 8px;
+            font-size: 15px;
+        }
+        .section {
+            background: #141414;
+            border: 1px solid #1F1F1F;
+            border-radius: 14px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #F0EDEB;
+        }
+        .section p, .section li {
+            font-size: 15px;
+            color: #AAA;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #1F1F1F;
+        }
+        .section ul li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .section ul li strong {
+            color: #F0EDEB;
+        }
+        a {
+            color: #5E9EFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px;
+            background: #1A1A1A;
+            border-radius: 10px;
+            margin-top: 12px;
+        }
+        .contact-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #AAA;
+        }
+        .contact-info strong {
+            display: block;
+            color: #F0EDEB;
+            font-size: 15px;
+            margin-bottom: 2px;
+        }
+        .faq-q {
+            font-weight: 600;
+            color: #F0EDEB;
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+        .faq-a {
+            color: #AAA;
+            font-size: 14px;
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #1F1F1F;
+        }
+        .faq-a:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #1F1F1F;
+            color: #555;
+            font-size: 13px;
+        }
+        .footer a {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-header">
+            <div class="app-icon">&#9201;</div>
+            <h1>Pro: Hatirlatici</h1>
+            <p>Destek Merkezi</p>
+        </div>
+
+        <div class="section">
+            <h2>Bize Ulasin</h2>
+            <p>Uygulama ile ilgili sorulariniz, sorunlariniz veya onerileriniz icin asagidaki kanallardan bize ulasabilirsiniz.</p>
+            <div class="contact-card">
+                <span class="contact-icon">&#9993;</span>
+                <div class="contact-info">
+                    <strong>E-posta</strong>
+                    <a href="mailto:mustdu7@gmail.com">mustdu7@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-card">
+                <span class="contact-icon">&#128172;</span>
+                <div class="contact-info">
+                    <strong>GitHub</strong>
+                    <a href="https://github.com/mustdu7/geri_sayim_pro_app/issues">Sorun bildir veya onerinde bulun</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Sikca Sorulan Sorular</h2>
+
+            <div class="faq-q">Etkinliklerimi nasil ekleyebilirim?</div>
+            <div class="faq-a">Ana ekrandaki "+" butonuna dokunarak yeni bir etkinlik olusturabilirsiniz. Baslik, tarih, ikon ve bildirim tercihlerinizi belirleyebilirsiniz.</div>
+
+            <div class="faq-q">Bildirimler calismiyorsa ne yapmaliyim?</div>
+            <div class="faq-a">Ayarlar &gt; Bildirimler bolumunden bildirim izninizin aktif oldugunu kontrol edin. Eger reddedildiyse, iPhone Ayarlar uygulamasindan Pro: Hatirlatici icin bildirimleri etkinlestirin.</div>
+
+            <div class="faq-q">Widget nasil eklenir?</div>
+            <div class="faq-a">Ana ekranda bos bir alana uzun basin, sol ustteki "+" butonuna dokunun ve "Pro: Hatirlatici" widget'ini secin. Kucuk (1x1) ve orta (2x1) boyut secenekleri mevcuttur.</div>
+
+            <div class="faq-q">Tekrarlayan etkinlik nasil olusturulur?</div>
+            <div class="faq-a">Etkinlik ekleme ekraninda "Tekrarla" secenegini aktif edin. Gunluk, haftalik, aylik veya yillik tekrarlama secenekleri arasinda secim yapabilirsiniz.</div>
+
+            <div class="faq-q">Verilerim guvenli mi?</div>
+            <div class="faq-a">Evet. Tum etkinlikleriniz ve tercihleriniz yalnizca cihazinizda yerel olarak saklanir. Hicbir veri sunuculara gonderilmez veya ucuncu taraflarla paylasilmaz.</div>
+
+            <div class="faq-q">Uygulamayi silersem verilerim kaybolur mu?</div>
+            <div class="faq-a">Evet. Veriler yalnizca cihazinizda saklandigi icin uygulamayi sildiginizde etkinlikleriniz de silinir.</div>
+        </div>
+
+        <div class="section">
+            <h2>Uygulama Bilgileri</h2>
+            <ul>
+                <li><strong>Gelistirici:</strong> Mustafa Durna</li>
+                <li><strong>Platform:</strong> iOS 17.0+</li>
+                <li><strong>Dil:</strong> Turkce</li>
+                <li><strong>Destek:</strong> <a href="mailto:mustdu7@gmail.com">mustdu7@gmail.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 Mustafa Durna. Tum haklar saklidir.</p>
+            <p style="margin-top: 8px;">
+                <a href="../privacy/">Gizlilik Politikasi</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
