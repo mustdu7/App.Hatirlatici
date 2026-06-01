@@ -31,15 +31,15 @@ Uygulama App Store'da yayında:
 Soru, öneri veya hata bildirimi için:
 
 - **E-posta:** [mustdu7@gmail.com](mailto:mustdu7@gmail.com)
-- **GitHub Issues:** [Issues](https://github.com/mustdu7/geri_sayim_pro_app/issues)
+- **GitHub Issues:** [Issues](https://github.com/mustdu7/App.Hatirlatici/issues)
 
-Detaylı destek ve SSS için: [Destek Sayfası](https://mustdu7.github.io/geri_sayim_pro_app/support)
+Detaylı destek ve SSS için: [Destek Sayfası](https://mustdu7.github.io/App.Hatirlatici/support/)
 
 ## Gizlilik Politikası
 
 Uygulama herhangi bir kişisel veri toplamaz. Tüm veriler yalnızca cihazınızda saklanır.
 
-Ayrıntılar için: [Gizlilik Politikası](https://mustdu7.github.io/geri_sayim_pro_app/privacy)
+Ayrıntılar için: [Gizlilik Politikası](https://mustdu7.github.io/App.Hatirlatici/privacy/)
 
 ## Lisans
 
